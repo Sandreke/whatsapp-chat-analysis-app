@@ -172,7 +172,7 @@ emoji_df = emoji_df.set_index('Emoji').head(10)
 
 # Plotear el pie de los emojis más usados
 fig = px.pie(emoji_df, values='Cantidad', names=emoji_df.index, hole=.3, template='plotly_dark', color_discrete_sequence=px.colors.qualitative.Pastel2)
-fig.update_traces(textposition='inside', textinfo='percent+label')
+fig.update_traces(textposition='inside', textinfo='percent+label', textfont_size=20)
 
 # Ajustar el gráfico
 fig.update_layout(
