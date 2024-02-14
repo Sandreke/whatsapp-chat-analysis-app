@@ -18,7 +18,7 @@ import streamlit as st
 ###################################
 # Título de la aplicación
 st.title('Análisis de nuestro chat de WhatsApp ❤️')
-st.write('Creado por [Sandreke](https://linktr.ee/sandreke99)')
+st.write('Creado por [Sandreke](https://linktr.ee/sandreke99) en este [tutorial](https://youtu.be/2eDccEfyQeM) 🎥')
 ###################################
 ###################################
 
