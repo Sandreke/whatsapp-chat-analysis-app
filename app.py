@@ -98,8 +98,8 @@ df = df.dropna()
 df.reset_index(drop=True, inplace=True)
 
 # #### Filtrar el chat por fecha de acuerdo a lo requerido
-start_date = '2023-01-01'
-end_date = '2024-02-01'
+start_date = '2024-10-01'
+end_date = '2024-11-30'
 
 df = df[(df['Fecha'] >= start_date) & (df['Fecha'] <= end_date)]
 
