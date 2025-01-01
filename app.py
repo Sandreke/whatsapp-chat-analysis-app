@@ -441,7 +441,7 @@ wordcloud = WordCloud(width = 800, height = 800, background_color ='black', stop
 
 ###################################
 ###################################
-st.header('☁️ Nuestro word cloud')
-st.image(wordcloud.to_array(), caption='Las palabras que más usamos ❤️', use_container_width=True)
+st.header('Las palabras que más usamos ❤️')
+st.image(wordcloud.to_array(), caption='☁️ Nuestro word cloud', use_container_width=True)
 ###################################
 ###################################
